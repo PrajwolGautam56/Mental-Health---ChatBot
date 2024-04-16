@@ -1,0 +1,6 @@
+// Assume you have access to the user ID from Redux store
+const userId = useSelector(state => state.user.id);
+
+return (
+  <PdfTextExtractor userId={userId} />
+);
