@@ -57,7 +57,7 @@ function QnAForm() {
 
   return (
     <div className=' w-50%  bg-green-200 h-[100vh]'  >
-    <div className='header sticky top-0 1 text-2xl'>
+    {/* <div className='header sticky top-0 1 text-2xl'>
     <p className='text-center '><ul role="list" className="divide-y divide-gray-100">
   <li className="flex justify-between gap-x-6  ">
     <div className="flex min-w-0 gap-x-4">
@@ -81,9 +81,9 @@ function QnAForm() {
 
 
     
-      {/* <PdfTextExtractor />  */}
+    
       <br /> <br />
-    </div>
+    </div> */}
      
 
     {/* <h2>{answer}</h2> */}
@@ -124,16 +124,7 @@ function QnAForm() {
        
       </form>
 
-      {/* {conversation.map((mes,key)=>{
-        <p key={key}>{mes} </p>
-      })} */}
-
-
-      {/* {conversation.map((pair, index) => (
-  <div key={index} className={`conversation-item ${pair.type}`}>
-    <p>{pair.content}</p>
-  </div>
-))} */}
+      
 
 
 
